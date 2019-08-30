@@ -1,13 +1,7 @@
-class User {
-	constructor(username) {
-		this.username = username
-	}
+const hamburger = document.getElementById('hamburger'),
+	nav = document.getElementById('nav')
 
-	getUsername() {
-		return this.username
-	}
-}
-
-const user1 = new User('coderick')
-
-console.log(user1.getUsername())
+hamburger.addEventListener('click', () => {
+	hamburger.classList.toggle('is-active')
+	nav.classList.toggle('nav-active')
+})

@@ -1,0 +1,51 @@
+.nav {
+	width: 80vw;
+	height: 100vh;
+	background-color: $dark;
+	position: fixed;
+	top: 5rem;
+	right: -80vw;
+	transition: right .3s;
+	padding-top: 1rem;
+
+	&.nav-active {
+		right: 0;
+	}
+}
+
+.menu {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-item {
+	margin: .5rem;
+}
+
+.menu-link {
+	color: rgba($white, .95);
+	transition: color .5s;
+
+	&:hover {
+		color: $primary;
+	}
+}
+
+@include rwd(lg) {
+	.nav {
+		position: static;
+		width: auto;
+		height: auto;
+		background: transparent;
+		padding-top: 0;
+	}
+
+	.menu {
+		flex-direction: row;
+	}
+}

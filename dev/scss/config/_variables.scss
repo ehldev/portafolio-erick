@@ -1,0 +1,13 @@
+// Colors
+
+$primary: #2DD881;
+$dark: #313C39;
+$white: #fff;
+
+// breakpoints
+
+$breakpoints : (s : 0, // Todos los tamaños
+    md : 40em, // ~ 640px
+    lg : 64em, // ~ 1024px
+    xl : 84em // ~1400px
+) !default;

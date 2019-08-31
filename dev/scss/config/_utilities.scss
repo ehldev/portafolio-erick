@@ -4,3 +4,16 @@
 	margin-right: auto;
 	display: flex;
 }
+
+.title,
+.subtitle {
+	margin: 0;
+}
+
+.title {
+	font-size: var(--fz-h1);
+}
+
+.subtitle {
+	font-size: var(--fz-h2);
+}

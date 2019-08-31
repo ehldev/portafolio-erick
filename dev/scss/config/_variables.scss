@@ -11,3 +11,15 @@ $breakpoints : (s : 0, // Todos los tamaños
     lg : 64em, // ~ 1024px
     xl : 84em // ~1400px
 ) !default;
+
+//  Variables para tipografías
+
+:root {
+	--fz-h1: 2rem;
+	--fz-h2: 1.2rem;
+
+	@include rwd(lg) {
+		--fz-h1: 2.5rem;
+		--fz-h2: 1.5rem;
+	}
+}

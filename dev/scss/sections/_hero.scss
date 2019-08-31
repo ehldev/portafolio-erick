@@ -1,0 +1,27 @@
+.hero {
+	background-color: rgba($dark, .08);
+	text-align: center;
+	--padding: 2rem 1rem 3rem;
+	@include rwd(lg) {
+		--padding: 5rem 1rem 6rem;
+	}
+	padding: var(--padding);
+	animation: bgColor 3s infinite alternate;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+	
+	.subtitle {
+		font-size: 1.2rem;
+		color: $primary;
+		font-weight: 400;
+		margin-bottom: 1.5rem;
+	}
+}
+
+.hero__social-networks {
+
+	img {
+		width: 1.8rem;
+		margin: 0 1rem;
+		opacity: .9;
+	}
+}

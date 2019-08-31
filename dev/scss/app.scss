@@ -1,7 +1,9 @@
 @import 'config/main';
-@import 'config/variables';
 @import 'mixins/rwd';
+@import 'config/variables';
 @import 'config/utilities';
+@import 'config/animations';
 @import 'sections/header';
+@import 'sections/hero';
 @import 'components/buttons';
 @import 'components/nav';

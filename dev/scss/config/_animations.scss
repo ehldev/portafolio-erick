@@ -4,3 +4,10 @@
 		background-color: $white;
 	}
 }
+
+@keyframes bgProjects {
+	to {
+		/* background-color: rgba($dark, .97); */
+		background-color: rgba(#313C39, .03);
+	}
+}

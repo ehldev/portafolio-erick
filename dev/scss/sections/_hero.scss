@@ -1,18 +1,16 @@
 .hero {
-	background-color: rgba($dark, .08);
 	text-align: center;
 	--padding: 2rem 1rem 3rem;
 	@include rwd(lg) {
-		--padding: 5rem 1rem 6rem;
+		--padding: 7rem 1rem;
 	}
 	padding: var(--padding);
-	animation: bgColor 3s infinite alternate;
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+	// animation: bgColor 3s infinite alternate;
 	
 	.subtitle {
-		font-size: 1.2rem;
-		color: $primary;
-		font-weight: 400;
+		font-size: 1.1em;
+		color: rgba($dark, .7);
+		font-weight: 300;
 		margin-bottom: 1.5rem;
 	}
 }

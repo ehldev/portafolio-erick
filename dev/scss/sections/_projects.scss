@@ -1,9 +1,11 @@
 .projects {
 	background-color: #f9f9f9;
 	position: relative;
-	padding: 5rem 0;
+	margin: 5rem 0;
+	padding: 7rem 0;
 	// animation: bgProjects 3s infinite alternate;
 	clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+
 
 	.subtitle {
 		width: 100%;
@@ -43,10 +45,8 @@
 .project-content {
 	background-color: $white;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	@include rwd(lg) {
-		justify-content: space-between;
-	}
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 1rem;

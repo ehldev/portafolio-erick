@@ -1,0 +1,71 @@
+.about-me {
+
+	margin: 5rem 0;
+	
+	@include rwd(md) {
+		margin: 3rem 0;
+	}
+
+	.container {
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.card {
+		@include rwd(lg) {
+			flex-basis: 40%;
+		}
+		transform: rotate(5deg) !important;
+
+		.btn {
+			float: right;
+			margin: 1rem 0;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.about-details {
+	@include rwd(lg) {
+		flex-basis: 40%;
+	}
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 5rem;
+	padding: 1.5rem;
+
+	.subtitle {
+		font-size: 1em;
+	}
+
+	@include rwd(md) {
+		flex-direction: row;
+	}
+
+	@include rwd(lg) {
+		flex-direction: column;
+	}
+}
+
+.about-projects {
+	margin-bottom: 2rem;
+}
+
+.list {
+	padding-left: 0;
+	border-bottom: 2px dashed rgba($primary, .7);
+	@include rwd(lg) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.list-item {
+	background-color: #f9f9f9;
+	color: rgba($dark, .9);
+	margin: 1rem 1rem 1rem 0;
+}

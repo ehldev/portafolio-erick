@@ -18,9 +18,9 @@
 </button>
         <nav class="nav" id="nav">
           <ul class="menu">
-            <li class="menu-item"><a class="menu-link" href="">Sobre mí</a></li>
-            <li class="menu-item"><a class="menu-link" href="">Proyectos</a></li>
-            <li class="menu-item"><a class="btn btn-primary" href="">Contacto</a></li>
+            <li class="menu-item"><a class="menu-link" href="#about">Sobre mí</a></li>
+            <li class="menu-item"><a class="menu-link" href="#projects">Proyectos</a></li>
+            <li class="menu-item"><a class="btn btn-primary" href="#contact">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -28,39 +28,104 @@
     <div class="hero">
       <h1 class="title animated zoomIn">Hola, soy Erick</h1>
       <h2 class="subtitle animated zoomIn slow">Desarrollador web</h2>
-      <div class="hero__social-networks animated fadeIn"><a href="https://www.facebook.com/erick.hl.7587" target="_blank"><img src="images/facebook.svg" alt="Facebook Erick Huamani"/></a><a href="https://www.instagram.com/codeerick/" target="_blank"><img src="images/instagram.svg" alt="Instagram Erick Huamani"/></a><a href="https://github.com/codeerick95" target="_blank"><img src="images/github.svg" alt="Github Erick Huamani"/></a></div>
+      <div class="social-networks animated fadeIn"><a href="https://www.facebook.com/erick.hl.7587" target="_blank"><span class="icon"><i class="fab fa-facebook-f"></i></span></a><a href="https://api.whatsapp.com/send?56979457917=numero&amp;amp;text=Hola quiero contratar tus servicios de desarrolllador web" target="_blank"><span class="icon"><i class="fab fa-whatsapp"></i></span></a><a href="https://www.instagram.com/codeerick/" target="_blank"><span class="icon"><i class="fab fa-instagram"></i></span></a></div>
     </div>
-    <section class="projects">
+    <section class="about-me" id="about">
+      <div class="container">
+        <div class="card animated">
+          <div class="card-header"><img src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/11/Blog_design_dev.jpg" alt="Desarrollador web"/></div>
+          <div class="card-body">
+            <h2 class="subtitle">Sobre mí</h2>
+            <p class="description"> Joven estudiante apasionado por la tecnología, siempre en constante aprendizaje.</p>
+            <div class="line"></div><a class="btn btn-primary" href="">Curriculum vitae</a>
+          </div>
+        </div>
+        <div class="about-details">
+          <div class="about-projects">
+            <h2 class="subtitle">¿Qué puedo programar?</h2>
+            <ul class="list">
+              <li class="list-item">Páginas web adaptadas a cualquier dispositivo</li>
+              <li class="list-item">Landing pages</li>
+              <li class="list-item">Tiendas online</li>
+              <li class="list-item">Blogs</li>
+              <li class="list-item">Foros</li>
+              <li class="list-item">Temas personalizados para Wordpress</li>
+              <li class="list-item">Entre otros</li>
+            </ul>
+          </div>
+          <div class="about-skills">
+            <h2 class="subtitle">Conocimientos técnicos</h2>
+            <ul class="list">
+              <li class="list-item">HTML 5</li>
+              <li class="list-item">CSS 3</li>
+              <li class="list-item">Javascript</li>
+              <li class="list-item">Sass</li>
+              <li class="list-item">Vue js</li>
+              <li class="list-item">Wordpress</li>
+              <li class="list-item">Entre otros...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
       <div class="container">
         <h2 class="subtitle">Proyectos desarrollados</h2>
         <div class="projects-list">
           <article class="project">
             <div class="project-img"><img src="images/projects/law_firm.png"/></div>
             <div class="project-content">
-              <h3 class="project-title">Sitio web para estudio de abogados</h3><a class="btn btn-outline-primary" href="#">Ver proyecto</a>
+              <h3 class="project-title">Página web para estudio de abogados.</h3><a class="btn btn-outline-primary" href="https://distracted-swanson-ec488e.netlify.com/law-firm/dist/index.html" target="_blank">Ver proyecto</a>
             </div>
           </article>
           <article class="project">
-            <div class="project-img"><img src="images/projects/coffee_shop.png"/></div>
+            <div class="project-img"><img src="images/projects/kindergarten.png"/></div>
             <div class="project-content">
-              <h3 class="project-title">Sitio web para cafetería</h3><a class="btn btn-outline-primary" href="#">Ver proyecto</a>
+              <h3 class="project-title">Página web para nido o guardería.</h3><a class="btn btn-outline-primary" href="https://distracted-swanson-ec488e.netlify.com/kindergarten/index.html" target="_blank">Ver proyecto</a>
             </div>
           </article>
           <article class="project">
-            <div class="project-img"><img src="images/projects/startup.png"/></div>
+            <div class="project-img"><img src="images/projects/sweetbox.png"/></div>
             <div class="project-content">
-              <h3 class="project-title">Sitio web para agencia digital</h3><a class="btn btn-outline-primary" href="#">Ver proyecto</a>
+              <h3 class="project-title">Sweetbox - Librería Javascript para mostrar imágenes en un lightbox.</h3><a class="btn btn-outline-primary" href="https://codeerick95.github.io/sweetbox_docs/" target="_blank">Ver proyecto</a>
             </div>
           </article>
           <article class="project">
-            <div class="project-img"><img src="images/projects/law_firm.png"/></div>
+            <div class="project-img"><img src="images/projects/photographer.png"/></div>
             <div class="project-content">
-              <h3 class="project-title">Sitio web para estudio de abogados</h3><a class="btn btn-outline-primary" href="#">Ver proyecto</a>
+              <h3 class="project-title">Página web de presentación para fotógrafos.</h3><a class="btn btn-outline-primary" href="https://distracted-swanson-ec488e.netlify.com/photographer/index.html" target="_blank">Ver proyecto</a>
             </div>
           </article>
         </div>
       </div>
     </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="subtitle">Contacto</h2>
+        <p class="description">Me gustaría formar parte de tu proyecto.</p>
+        <div class="line"></div>
+        <div class="contact-info">
+          <div class="email">
+            <h3>Correo electrónico</h3>
+            <div class="description">dev.erick95@gmail.com</div>
+          </div>
+          <div class="wssp">
+            <h3>Mi número personal / Whatsapp</h3>
+            <div class="description">(+51) 981 647 313</div>
+          </div>
+          <div class="social-networks">
+            <h3>Sígueme en mis redes sociales</h3>
+            <div class="social-networks animated fadeIn"><a href="https://www.facebook.com/erick.hl.7587" target="_blank"><span class="icon"><i class="fab fa-facebook-f"></i></span></a><a href="https://api.whatsapp.com/send?56979457917=numero&amp;amp;text=Hola quiero contratar tus servicios de desarrolllador web" target="_blank"><span class="icon"><i class="fab fa-whatsapp"></i></span></a><a href="https://www.instagram.com/codeerick/" target="_blank"><span class="icon"><i class="fab fa-instagram"></i></span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p class="description">&copy; Copyright 2019 - Erick Huamani</p>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/3bd84f9f96.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

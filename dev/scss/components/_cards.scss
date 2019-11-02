@@ -1,0 +1,9 @@
+.card {
+	max-width: 100%;
+	background-color: $white;
+	border: 1px solid rgba($dark, .1);
+
+	.card-body {
+		padding: 2rem;
+	}
+}

@@ -7,6 +7,7 @@
 	right: -80vw;
 	transition: right .3s;
 	padding-top: 1rem;
+	z-index: 10;
 
 	&.nav-active {
 		right: 0;

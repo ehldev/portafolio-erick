@@ -1,0 +1,54 @@
+.contact {
+	padding: 3rem 0;
+	box-shadow: 0 2px 16px -2px rgba(0, 0, 0, 0.15);
+	
+	.container {
+		@include rwd(md) {
+			flex-direction: column;
+		}
+	}
+}
+
+.contact-info {
+	@include rwd(md) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		text-align: center;
+	}
+
+	@include rwd(lg) {
+		justify-content: space-between;
+		text-align: left;
+	}
+
+	margin: 3rem 0;
+
+	h3 {
+		font-size: 1rem;
+		color: rgba($dark, .9);
+	}
+
+	.social-networks {
+		@include rwd(md) {
+			margin: 2rem 0;
+		}
+
+		@include rwd(lg) {
+			margin: 0;
+		}
+
+		.facebook {
+			@include rwd(lg) {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+.wssp {
+	margin: 2rem 0;
+	@include rwd(md) {
+		margin: 0;
+	}
+}
